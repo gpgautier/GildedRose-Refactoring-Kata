@@ -7,6 +7,12 @@
 	strict="true" 
 	verbose="true">
 
+	<filter>
+		<whitelist>
+			<directory suffix=".php">src</directory>
+		</whitelist>
+	</filter>
+
 	<testsuites>
 		<testsuite name="AllTests">
 			<directory suffix="_test.php">test</directory>
